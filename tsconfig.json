@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "ES2020",
+    "disableReferencedProjectLoad": true,
+    "baseUrl": ".",
+    "disableSolutionSearching": true,
+    "module": "ESNext",
+    "lib": ["ES2020"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "checkJs": false,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "composite": true,
+    "removeComments": true,
+    "downlevelIteration": true,
+    "isolatedModules": true,
+    "strict": true,
+    "preserveWatchOutput": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    "noUncheckedIndexedAccess": true,
+    "paths": {
+      "@translator/*": ["packages/*/src"]
+    }
+  }
+}
