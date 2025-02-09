@@ -1,7 +1,10 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  "extends": "../../tsconfig.json",
+  "references": [{ "path": "./tsconfig.app.json" }],
+  "compilerOptions": {
+    "composite": true,
+    "tsBuildInfoFile": ".cache/typescript/tsconfig.tsbuildinfo",
+    "jsx": "react-jsx"
+  },
+  "exclude": ["node_modules", "dist", "vite.config.ts"]
 }

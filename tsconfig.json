@@ -26,8 +26,10 @@
     "emitDecoratorMetadata": true,
     "resolveJsonModule": true,
     "noUncheckedIndexedAccess": true,
+    "useDefineForClassFields": true,
+    "moduleDetection": "force",
     "paths": {
-      "@translator/*": ["packages/*/src"]
+      "@translator/*": ["packages/client/src/*"]
     }
   }
 }
