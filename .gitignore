@@ -5,6 +5,9 @@ dist
 .cache
 .build-cache
 *.local
+ios
+android
+
 
 # Logs
 logs
